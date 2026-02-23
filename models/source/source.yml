@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    database: analytics-488308
+    schema: raw
+    tables:
+      - name: fact_sales
+      - name: dim_customer
+      - name: fact_returns
+      - name: dim_date
+      - name: dim_product
+      - name: dim_store
+
