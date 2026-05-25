@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: raw
-    database: analytics-488308
+    database: job-email-classifier-486123
     schema: raw
     tables:
       - name: fact_sales
